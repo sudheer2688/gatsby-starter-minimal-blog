@@ -5701,6 +5701,24 @@ gatsby-core-utils@^3.6.0:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
+gatsby-core-utils@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.7.0.tgz#edc928d948a3672d3166b914225a70369325818e"
+  integrity sha512-CboIzpEFbaD4+WrozKl3fMpxUetcaDq0aWPfrfzAtc8l0JMlD3GS2Q/uW7HpcvTAlSGv2ZomTzd2ySLV/AgpTQ==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    ci-info "2.0.0"
+    configstore "^5.0.1"
+    fastq "^1.13.0"
+    file-type "^16.5.3"
+    fs-extra "^10.0.0"
+    got "^11.8.3"
+    lock "^1.1.0"
+    node-object-hash "^2.3.10"
+    proper-lockfile "^4.1.2"
+    tmp "^0.2.1"
+    xdg-basedir "^4.0.0"
+
 gatsby-graphiql-explorer@^2.6.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-2.6.0.tgz#e280ada722dda225bd25fff133b40a2b122112bd"
@@ -5752,16 +5770,16 @@ gatsby-plugin-catch-links@^4.4.0:
     "@babel/runtime" "^7.15.4"
     escape-string-regexp "^1.0.5"
 
-gatsby-plugin-feed@^4.0.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-4.5.0.tgz#4cb3fd9e7cf6b1ce9a66d2df8cdb4213afd08fee"
-  integrity sha512-pjHat1VyKe3oEZp7qfFPz4G8fgM9MxKVI0wN5O3XkrgveQKs6m/kvfsK8S1cKKM7ik6nDv668L+fCsdwpiRiFg==
+gatsby-plugin-feed@^4.6.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-4.7.0.tgz#5afa871f502d597205a13e95ba43c470522a8b66"
+  integrity sha512-PMSX+fETaLep/HDDjN9txYwJUkF3uimWTyAP+T2WgqfuPt80aDqiio94zrAqvfmfjyjdc6dsYgesEFiz32jF6A==
   dependencies:
     "@babel/runtime" "^7.15.4"
     "@hapi/joi" "^15.1.1"
     common-tags "^1.8.2"
     fs-extra "^10.0.0"
-    gatsby-plugin-utils "^2.5.0"
+    gatsby-plugin-utils "^3.1.0"
     lodash.merge "^4.6.2"
     rss "^1.2.2"
 
@@ -5779,14 +5797,14 @@ gatsby-plugin-gatsby-cloud@^4.0.0:
     lodash "^4.17.21"
     webpack-assets-manifest "^5.0.6"
 
-gatsby-plugin-manifest@^4.0.0:
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-4.5.2.tgz#4b36bf7e4605a8d3304a4ebcc88ec118232c1c52"
-  integrity sha512-Stvhbz7A9BZ88HJSz+H4abZ18zxNMsv/vPkV8iAStDl55B2dY9IyWW9n5I3mL6GlPvy1mdVbTqwNG2lgMYLSEA==
+gatsby-plugin-manifest@^4.6.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-4.7.0.tgz#8ee8fcddec51154c04ccfab1e36f78e7880e3438"
+  integrity sha512-jZsR7sqvJsxTm2J01ymPsCXlEoYw9duVQUR3oNy9VxHyuPOXctk2Cnp/vnWDZpQ6g+i7ha1RhyJEQgQEj1jhcQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
-    gatsby-core-utils "^3.5.2"
-    gatsby-plugin-utils "^2.5.0"
+    gatsby-core-utils "^3.7.0"
+    gatsby-plugin-utils "^3.1.0"
     semver "^7.3.5"
     sharp "^0.29.3"
 
@@ -5882,10 +5900,10 @@ gatsby-plugin-sharp@^4.4.0:
     svgo "1.3.2"
     uuid "3.4.0"
 
-gatsby-plugin-sitemap@^5.0.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-5.5.0.tgz#d82bb8454711ffad2747cb2ed8d6e8e184b7ffa7"
-  integrity sha512-M98bxeJ6O4fPeefc35nv9q44D2RREdpnhPf0q6pDIJuGhXtdwXesSCCi6/4hZOUfOHyOYwxoKPlE7p7zx4SqWw==
+gatsby-plugin-sitemap@^5.6.0:
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-5.7.0.tgz#87ab72f9acfac31dcd8f25ad0fb6afe5a2c221fa"
+  integrity sha512-53l+SXOHYp2Bt/8sK0DfLRjGq+K63qQGAPJksv1qC3soDNNe+TlKxmzM7JksACLzDVUkFVQYrvmS2RvMfivqeA==
   dependencies:
     "@babel/runtime" "^7.15.4"
     common-tags "^1.8.2"
@@ -5922,6 +5940,14 @@ gatsby-plugin-utils@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-3.0.0.tgz#2f19eaf5f43cacd74c1edfe4f46385f1694e8c79"
   integrity sha512-hZj64WQbs/KgAWez3oWMwlmhewUinXDJJdhj491vOWX2WVlH79m8JpAoklgrm9xaoIdhfbNkhQoMKPkRZKJpJQ==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    joi "^17.4.2"
+
+gatsby-plugin-utils@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-3.1.0.tgz#56abcc826786ae035a8edd0e652c492bd7b8f40e"
+  integrity sha512-OvRhIKzjaz3WOo/dxSI90ZlclsO2xaj1Dz7vigU2QGPAe8JtRJbNTpgfBZ+JOBeVnDONNbZulVn8S8F/Ra/BZA==
   dependencies:
     "@babel/runtime" "^7.15.4"
     joi "^17.4.2"
